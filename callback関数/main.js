@@ -47,3 +47,13 @@ const plus = (a, b) => {
 
 doSomeThing(2, 3, multiply);
 doSomeThing(5, 19, plus);
+
+const arry = [1, 2, 3, 4, 5];
+
+const forEach = () => {
+  for (let i = 0; i < arry.length; i++) {
+    console.log(arry[i]);
+  }
+};
+
+forEach();
